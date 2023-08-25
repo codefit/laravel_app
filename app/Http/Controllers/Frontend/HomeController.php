@@ -14,7 +14,7 @@ class HomeController extends Controller
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index(){
-        dd(TransportType::cases());
+
         return view('frontend.pages.index');
     }
 }

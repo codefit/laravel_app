@@ -1,5 +1,9 @@
 @extends('frontend.layout')
 
 @section('content')
-    Test
+    <livewire:counter />
+
+
+    <livewire:cart-drop-down />
+    <livewire:contact-form />
 @endsection
