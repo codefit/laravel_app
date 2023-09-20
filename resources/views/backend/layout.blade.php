@@ -5,6 +5,7 @@
     @include('backend.containers.head.icons')
     @include('backend.containers.head.font')
     @include('backend.containers.head.css')
+    @include('backend.containers.head.js')
 </head>
 <body class="">
 <!-- Preloader -->
@@ -22,8 +23,12 @@
     <!-- Content wrapper -->
     <div class="content-wrapper">
         @include('backend.containers.sidebar.navigation')
-        @include('backend.containers.header.page')
-        @yield('content')
+        <div class="content-body">
+            <div class="content">
+                @include('backend.containers.header.page')
+                @yield('content')
+            </div>
+        </div>
     </div>
 </div>
 

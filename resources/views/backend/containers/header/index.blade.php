@@ -14,7 +14,7 @@
                             <button class="btn">
                                 <i class="ti-search"></i>
                             </button>
-                            <input type="text" class="form-control" placeholder="Search">
+                            <input type="text" class="form-control set-search" placeholder="Search">
                         </form>
                     </div>
                 </li>

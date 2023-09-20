@@ -3,19 +3,47 @@
 namespace App\Http\Controllers\backend;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
+use http\Env\Response;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\View;
+use Yajra\DataTables\Facades\DataTables;
 
 
 class IndexController extends Controller
 {
 
-    /**
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
-     */
+
     public function index()
     {
-        return view("backend.pages.index");
+        return view("backend.pages.index", [
+            'listClass' => 'usersList',
+            'listRoute' => route('users.get')
+        ]);
+    }
+
+    public function getUsers(Request $request){
+        if($request->ajax()){
+            $users = User::query();
+
+            if ($request->has('search')) {
+                $users->where('email', 'LIKE', '%' . $request->get('search') . "%" );
+            }
+
+            $data['count'] = $users->count('id');
+            $data['max'] = ceil($data['count'] / $request->get('limit'));
+            $data['items'] = $users->latest()
+                ->offset($request->get('limit') * ( $request->get('page')-1))
+                ->limit($request->get('limit'))
+                ->get();
+
+            $data['render'] = View::make('backend.modules.users.list-item', ['users' => $data['items']])->render();
+
+            unset($data['items']);
+
+            return response()->json($data);
+        }
     }
 
     /**

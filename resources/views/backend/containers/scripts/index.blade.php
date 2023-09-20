@@ -14,5 +14,29 @@
 <!-- Dashboard scripts -->
 <script src="{{ asset('backend/assets/js/examples/pages/ecommerce-dashboard.js') }}"></script>
 
+<!-- Main functions -->
+<script src="{{ asset("backend/assets/js/functions.js") }}"></script>
+
 <!-- App scripts -->
 <script src="{{ asset("backend/assets/js/app.min.js") }}"></script>
+
+
+
+@if($listClass)
+    <script src="{{ asset('backend/assets/js/module/table.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/module/events.js') }}"></script>
+    <script>
+        var Table = new table("{{ $listRoute }}");
+        Table.setLimit(12);
+        Table.setWrapper("{{ $listClass }}");
+        Table.setWrapperPagination("pagination");
+        Table.setLocation('{{ env('APP_URL') }}');
+        @if(request()->get('p'))
+            Table.setPage('{{ request()->get('p') }}')
+        @endif
+        @if(request()->get('q'))
+            Table.setSearch('{{ request()->get('q') }}')
+        @endif
+        Table.read();
+    </script>
+@endif
