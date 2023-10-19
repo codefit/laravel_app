@@ -1,0 +1,97 @@
+.products {
+    position: relative;
+    .products-list {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        .product {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #eee;
+            border-radius: 30px;
+            overflow: hidden;
+            padding: 15px 20px 15px;
+            background: white;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+            picture {
+                position: relative;
+                min-height: 200px;
+                max-height: 200px;
+                overflow: hidden;
+                img {
+                    position: absolute;
+                    inset: 0;
+                    margin: auto;
+                    max-width: 100%;
+                }
+            }
+            h2 {
+                font-weight: 600;
+                font-size: 19px;
+                margin-top: 15px;
+                text-align: center;
+            }
+            small {
+                display: block;
+                color: lightgrey;
+                font-size: 15px;
+                text-align: center;
+                margin: 5px 0;
+            }
+            p {
+                display: none;
+                font-size: 15px;
+                margin:0;
+            }
+
+            form {
+                margin-top: auto;
+                width: 100%;
+
+                .quantity {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    margin: 15px 0;
+                    span {
+                        display: flex;
+                        flex-direction: column;
+                        line-height: 1.2;
+                        del {
+                            font-size: 15px;
+                            color: lightgrey;
+                        }
+                        strong {
+                            font-size: 24px;
+                            font-weight: 700;
+                        }
+                    }
+                    input {
+                        width: 85px;
+                        height: 48px;
+                        margin-left: auto;
+                        border-radius:15px;
+                        border:1px solid #eee;
+                        box-shadow: none;
+                        outline: 0;
+                        padding: 10px ;
+                    }
+                }
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    border-radius: 30px;
+                    height: 48Px;
+                    font-size: 21px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

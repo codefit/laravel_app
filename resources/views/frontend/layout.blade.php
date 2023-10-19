@@ -10,9 +10,9 @@
 
 <div id="wrapper">
     @include('frontend.containers.header.index')
-    <div id="content">
+    <main id="content">
         @yield('content')
-    </div>
+    </main>
     @include('frontend.containers.footer.index')
 </div>
 

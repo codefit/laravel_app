@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
@@ -18,7 +19,7 @@ class RoleAndPermissionSeeder extends Seeder
         Permission::create(['name' => 'edit-blog-posts']);
         Permission::create(['name' => 'delete-blog-posts']);
 
-        $adminRole = Role::create(['name' => 'Admin']);
+        $adminRole = Role::create(['name' => 'Pharmacy']);
         $editorRole = Role::create(['name' => 'User']);
 
         $adminRole->givePermissionTo([

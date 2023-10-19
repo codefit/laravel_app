@@ -27,7 +27,7 @@ $(document).on("keyup",'.set-search', function (e){
 });
 
 
-$(document).on("change",'.select-action',function (){
+$(document).on("change",'.select-action',function (Table){
     swal({
         title : 'Opravdu chcete provést akci?',
         text : 'Položky budou změněny',
