@@ -3,8 +3,6 @@ a, img {
 }
 a:hover {
     text-decoration: none;
-    opacity: 0.8;
-    filter: grayscale(115%);
 }
 
 
@@ -16,4 +14,21 @@ input:focus {
     box-shadow: none !important;
 }
 
+.container {
+    @media(min-width: @screen-lg){
+        max-width:1170px;
+    }
+    @media(min-width: @screen-xl){
+        max-width:1200px;
+    }
 
+}
+
+.btn-success {
+    background: #34b878;
+    border-color: #34b878;;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: @font-family-title;
+}

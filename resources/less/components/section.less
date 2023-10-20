@@ -1,4 +1,4 @@
-
+// BOF advantages
 section.advantages {
     width: 100%;
     margin: 30px 0;
@@ -14,6 +14,11 @@ section.advantages .advantages-list {
     padding: 30px;
 
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    @media(max-width: @screen-md){
+        grid-template-columns: repeat(2,1fr);
+
+    }
 }
 
 
@@ -35,9 +40,13 @@ section.advantages .advantage .text span {
 section.advantages .advantage .text strong {
     font-weight: 700;
 }
+// EOF advantages
 
 section.carousel {
     margin: 30px 0;
+    @media(max-width: @screen-md){
+        margin: 15px 0;
+    }
 }
 
 section.carousel .carousel-inner {

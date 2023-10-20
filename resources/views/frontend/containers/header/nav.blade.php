@@ -9,20 +9,25 @@
                 <img src="{{ asset('images/ecommerce/search.png') }}" alt="" height="32px">
             </button>
         </form>
-        <a href="" class="user ml-auto mr-4">
+        <div class="user d-flex align-items-center ml-auto">
             <img src="{{ asset('images/ecommerce/user.png') }}" alt="" height="54px">
-            <span>
-               Účet
-            </span>
-        </a>
-        <a href="" class="cart d-flex">
+            <a href="" class="d-flex flex-column justify-content-center mb-0">
+                <span>Účet</span>
+            </a>
+        </div>
+        <div class="cart d-flex align-items-center">
             <img src="{{ asset('images/ecommerce/cart.png') }}" alt="" height="54px">
-            <p class="d-flex flex-column justify-content-center mb-0">
+            <a href="" class="d-flex flex-column justify-content-center mb-0">
                 <span>
                     Košík
                 </span>
-                <strong>0.00 CZK</strong>
-            </p>
-        </a>
+                <strong><b>3 ks </b>55 Kč</strong>
+            </a>
+            <div class="cart-list">
+                <p>
+                    lorem ipsum
+                </p>
+            </div>
+        </div>
     </div>
 </header>

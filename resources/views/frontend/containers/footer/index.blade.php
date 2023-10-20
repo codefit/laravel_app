@@ -8,17 +8,16 @@
                         <li class="mb-2">
                             <a href="#" class="text-muted">
                                 <img src="{{ asset('images/icons/email.png') }}" alt="" height="48px">
-                                <span>info@codefit.cz</span>
+                                <span class="ml-1">info@codefit.cz</span>
                             </a>
                         </li>
                         <li class="mb-2">
                             <a href="#" class="text-muted">
                                 <img src="{{ asset('images/icons/phone.png') }}" alt="" height="48px">
-                                <span>+420 702 953 952</span>
+                                <span class="ml-1">+420 702 953 952</span>
                             </a>
                         </li>
                     </ul>
-
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                     <h4 class="text-uppercase font-weight-bold mb-4">Vše o nákupu</h4>
