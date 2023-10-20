@@ -1,9 +1,9 @@
 <div class="product">
     <picture>
         <source
-            data-srcset="https://www.mojelekarna.cz/uploads/media/sulu-400x400-inset/06/12706-GS_Mamavit_Prefolin%2BDHA_30%2B30_CZ.webp?v=1-0"
+            data-srcset="https://www.mojelekarna.cz/uploads/media/sulu-400x400-inset/06/12586-gs_imunostim_prevent_tbl._20_crsk.webp?v=1-0"
             type="image/webp"
-            srcset="https://www.mojelekarna.cz/uploads/media/sulu-400x400-inset/06/12706-GS_Mamavit_Prefolin%2BDHA_30%2B30_CZ.webp?v=1-0">
+            srcset="https://www.mojelekarna.cz/uploads/media/sulu-400x400-inset/06/12586-gs_imunostim_prevent_tbl._20_crsk.webp?v=1-0">
         <img loading="lazy"
              data-src="https://www.mojelekarna.cz/uploads/media/sulu-400x400-inset/06/12706-GS_Mamavit_Prefolin%2BDHA_30%2B30_CZ.jpg?v=1-0"
              alt="GS_Mamavit_Prefolin+DHA_30+30_CZ.jpg"
@@ -11,9 +11,9 @@
              src="https://www.mojelekarna.cz/uploads/media/sulu-400x400-inset/06/12706-GS_Mamavit_Prefolin%2BDHA_30%2B30_CZ.jpg?v=1-0">
     </picture>
     <small>1x 20 tablet</small>
-    <h2>
+    <h3>
         {{ fake()->text(rand(25,45)) }}
-    </h2>
+    </h3>
 
     <p>
         {{ fake()->text(100) }}

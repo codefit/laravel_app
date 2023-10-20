@@ -93,7 +93,7 @@ section.carousel .carousel-inner {
   -ms-align-items: center;
   align-items: center;
   border-radius: 30px;
-  background: tomato;
+  background: #ed1c24;
   height: 45px;
   width: 45px;
 }
@@ -189,8 +189,8 @@ section.carousel .carousel-inner {
 }
 .products .products-list .product picture {
   position: relative;
-  min-height: 200px;
-  max-height: 200px;
+  min-height: 180px;
+  max-height: 180px;
   overflow: hidden;
 }
 .products .products-list .product picture img {
@@ -198,6 +198,17 @@ section.carousel .carousel-inner {
   inset: 0;
   margin: auto;
   max-width: 100%;
+  max-height: 100%;
+}
+@media (max-width: 991px) {
+  .products .products-list .product picture {
+    max-height: 140px;
+    min-height: 140px;
+  }
+  .products .products-list .product picture img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 .products .products-list .product small {
   display: block;
@@ -206,10 +217,10 @@ section.carousel .carousel-inner {
   text-align: center;
   margin: 5px 0;
 }
-.products .products-list .product h2 {
+.products .products-list .product h3 {
   font-weight: 600;
   font-size: 19px;
-  margin-top: 15px;
+  margin-top: 0px;
   text-align: center;
 }
 .products .products-list .product p {
@@ -238,11 +249,11 @@ section.carousel .carousel-inner {
   line-height: 1.2;
 }
 .products .products-list .product form .info span del {
-  font-size: 20px;
+  font-size: 18px;
   color: lightgrey;
 }
 .products .products-list .product form .info span strong {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   color: #34b878;
 }
@@ -499,6 +510,11 @@ footer .footer-body {
 }
 footer .footer-body h4 {
   font-size: 18px;
+}
+@media (max-width: 991px) {
+  footer .footer-body {
+    padding: 15px 0;
+  }
 }
 footer .footer-bottom {
   background: #34b878;

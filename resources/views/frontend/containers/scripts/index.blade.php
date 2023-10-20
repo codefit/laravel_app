@@ -5,7 +5,6 @@
 <script src="{{ asset('plugins/glider/glider.min.js') }}"></script>
 <script>
     var settingsGliderProducts = {
-
         slidesToScroll: 'auto',
         itemWidth: undefined,
         exactWidth: false,
@@ -29,14 +28,14 @@
         responsive: [{
             breakpoint: 1200,
             settings: {
-                slidesToShow: 4.3,
+                slidesToShow: 4.4,
                 slidesToScroll: 4
             }
         },
             {
                 breakpoint: 991,
                 settings: {
-                    slidesToShow: 2.5,
+                    slidesToShow: 3.5,
                     slidesToScroll: 3
                 }
             },
@@ -57,14 +56,14 @@
             {
                 breakpoint: 400,
                 settings: {
-                    slidesToShow: 1.5,
+                    slidesToShow: 2.2,
                     slidesToScroll: 1
                 }
             },
             {
                 breakpoint: 300,
                 settings: {
-                    slidesToShow: 1.5,
+                    slidesToShow: 1.2,
                     slidesToScroll: 1
                 }
             }

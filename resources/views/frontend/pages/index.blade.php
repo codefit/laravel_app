@@ -7,21 +7,21 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img
-                            src="https://www.mojelekarna.cz/uploads/media/1400x442/06/12016-Homepage_banner_desktop_1400x442_5%20%281%29.webp?v=1-0"
+                            src="https://www.mojelekarna.cz/uploads/media/1400x442/04/12004-G9032_GS%20banner%20Sanovia_z%C3%A1%C5%99%C3%AD2023.webp?v=1-0"
                             class="d-block w-100"
-                            alt="https://www.mojelekarna.cz/uploads/media/1400x442/06/12016-Homepage_banner_desktop_1400x442_5%20%281%29.webp?v=1-0">
+                            alt="https://www.mojelekarna.cz/uploads/media/1400x442/04/12004-G9032_GS%20banner%20Sanovia_z%C3%A1%C5%99%C3%AD2023.webp?v=1-0">
                     </div>
                     <div class="carousel-item">
                         <img
-                            src="https://www.mojelekarna.cz/uploads/media/1400x442/06/12016-Homepage_banner_desktop_1400x442_5%20%281%29.webp?v=1-0"
+                            src="https://www.mojelekarna.cz/uploads/media/1400x442/04/12004-G9032_GS%20banner%20Sanovia_z%C3%A1%C5%99%C3%AD2023.webp?v=1-0"
                             class="d-block w-100"
-                            alt="https://www.mojelekarna.cz/uploads/media/1400x442/06/12016-Homepage_banner_desktop_1400x442_5%20%281%29.webp?v=1-0">
+                            alt="https://www.mojelekarna.cz/uploads/media/1400x442/04/12004-G9032_GS%20banner%20Sanovia_z%C3%A1%C5%99%C3%AD2023.webp?v=1-0">
                     </div>
                     <div class="carousel-item">
                         <img
-                            src="https://www.mojelekarna.cz/uploads/media/1400x442/06/12016-Homepage_banner_desktop_1400x442_5%20%281%29.webp?v=1-0"
+                            src="https://www.mojelekarna.cz/uploads/media/1400x442/04/12004-G9032_GS%20banner%20Sanovia_z%C3%A1%C5%99%C3%AD2023.webp?v=1-0"
                             class="d-block w-100"
-                            alt="https://www.mojelekarna.cz/uploads/media/1400x442/06/12016-Homepage_banner_desktop_1400x442_5%20%281%29.webp?v=1-0">
+                            alt="https://www.mojelekarna.cz/uploads/media/1400x442/04/12004-G9032_GS%20banner%20Sanovia_z%C3%A1%C5%99%C3%AD2023.webp?v=1-0">
                     </div>
                 </div>
 
@@ -61,4 +61,6 @@
             </div>
         </div>
     </section>
+
+
 @endsection
