@@ -26,14 +26,6 @@ input:focus {
   background: #34b878;
   border-color: #34b878;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Titillium Web', sans-serif;
-}
 section.advantages {
   width: 100%;
   margin: 30px 0;
@@ -93,9 +85,17 @@ section.carousel .carousel-inner {
   -ms-align-items: center;
   align-items: center;
   border-radius: 30px;
-  background: #ed1c24;
   height: 45px;
   width: 45px;
+}
+.products h2 strong.bg-red {
+  background: #ed1c24;
+}
+.products h2 strong.bg-blue {
+  background: darkblue;
+}
+.products h2 strong.bg-green {
+  background: var(--primary-color);
 }
 .products h2 i {
   font-weight: 700;
@@ -310,6 +310,9 @@ section.carousel .carousel-inner {
   font-size: 21px;
   font-weight: 700;
 }
+.products .products-list .product form button:hover {
+  background: var(--primary-color-dark);
+}
 nav.header-top {
   background: #f9f9f9;
   padding: 10px 0;
@@ -331,7 +334,7 @@ nav.header-top a {
   font-size: 15px;
 }
 nav.header-menu {
-  background: #34b878;
+  background: var(--primary-color);
 }
 @media (max-width: 991px) {
   nav.header-menu {
@@ -352,7 +355,7 @@ nav.header-menu ul li a {
   color: white;
 }
 nav.header-menu ul li a:hover {
-  background: black;
+  background: var(--primary-color-dark);
 }
 nav.header-menu ul li:first-of-type a {
   background: #ed1c24;
@@ -522,6 +525,18 @@ footer .footer-bottom {
 }
 footer .footer-bottom p {
   color: white;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.pb-30 {
+  padding-bottom: 30px;
 }
 html {
   max-width: 100%;

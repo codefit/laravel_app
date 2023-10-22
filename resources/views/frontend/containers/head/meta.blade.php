@@ -6,5 +6,11 @@
 <style>
     :root {
         --text-color: #333;
+        --primary-color: #34b878;
+        --primary-color-light: #f2fbf6;
+        --primary-color-dark: #2a9969;
+        --secondary-color: #ed1c24;
+        --secondary-color-light: #333;
+        --info-color: #6494aa;
     }
 </style>

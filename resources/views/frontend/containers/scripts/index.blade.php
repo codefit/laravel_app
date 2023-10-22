@@ -72,10 +72,17 @@
 
     setTimeout(function() {
         settingsGliderProducts.arrows = {
-            prev: document.querySelector('.nav-products-prev'),
-            next: document.querySelector('.nav-products-next')
+            prev: document.querySelector('.products-prev-1'),
+            next: document.querySelector('.products-next-1')
         };
-        new Glider(document.querySelector('.glider-products'), settingsGliderProducts);
+        new Glider(document.querySelector('.glider-products-1'), settingsGliderProducts);
+
+        settingsGliderProducts.arrows = {
+            prev: document.querySelector('.products-prev-2'),
+            next: document.querySelector('.products-next-2')
+        };
+        new Glider(document.querySelector('.glider-products-2'), settingsGliderProducts);
+
     }, 100);
 
 

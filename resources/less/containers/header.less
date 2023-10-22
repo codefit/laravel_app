@@ -21,7 +21,7 @@ nav {
     }
     // Main menu
     &.header-menu {
-        background: #34b878 ;
+        background: var(--primary-color) ;
         @media(max-width: @screen-md){
             display: none;
         }
@@ -42,9 +42,10 @@ nav {
         font-size: 18px;
         font-weight: 700;
         color: white;
+
     }
     &.header-menu ul li a:hover {
-        background: black;
+        background: var(--primary-color-dark);
     }
     &.header-menu ul li:first-of-type a {
         background: #ed1c24;

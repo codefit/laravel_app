@@ -19,14 +19,6 @@ class HomeController extends Controller
     public function index(){
 
 
-        $user = User::find(10001);
-
-        $permitions = $user->getRoleNames();
-
-        if($user->can('create-users')){
-
-        }
-
         return view('frontend.pages.index');
     }
 
