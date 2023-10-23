@@ -1,3 +1,6 @@
+<!-- Header nav - status: In progress -->
+<!-- Todo: popup login/register, popup cart, autocomplete search, responsive menu -->
+
 <header>
     <div class="container d-flex align-items-center">
         <a href="" class="logo d-flex align-items-center">

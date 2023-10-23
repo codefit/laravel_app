@@ -28,6 +28,7 @@
             </div>
         </div>
     </section>
+
     <section class="advantages">
         <div class="container">
             <div class="advantages-list">
@@ -41,7 +42,7 @@
             <div class="d-flex align-items-center position-relative">
                 <h2 class="d-flex align-items-center mr-auto">
                     <strong class="bg-red">
-                        <i class="bi bi-percent"></i>
+                        <i class="bi bi-bookmark-fill"></i>
                     </strong>
                     <span class="ml-3">Akční nabídka</span>
                 </h2>
@@ -67,7 +68,7 @@
             <div class="d-flex align-items-center position-relative">
                 <h2 class="d-flex align-items-center mr-auto">
                     <strong class="bg-green">
-                        <i class="bi bi-percent"></i>
+                        <i class="bi bi-heart-fill"></i>
                     </strong>
                     <span class="ml-3">Doporučené produkty</span>
                 </h2>

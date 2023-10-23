@@ -18,8 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [ HomeController::class, 'index' ])->name('index');
 
 
-Route::get('/dashboard', [ IndexController::class, 'index' ])->name('dashboard');
-
 
 Route::get('/users/get', [ IndexController::class, 'getUsers' ])->name('users.get');
 

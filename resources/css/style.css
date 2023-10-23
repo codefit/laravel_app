@@ -85,8 +85,8 @@ section.carousel .carousel-inner {
   -ms-align-items: center;
   align-items: center;
   border-radius: 30px;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
 }
 .products h2 strong.bg-red {
   background: #ed1c24;
@@ -99,6 +99,7 @@ section.carousel .carousel-inner {
 }
 .products h2 i {
   font-weight: 700;
+  font-size: 16px;
   color: white;
 }
 .products h2 span {

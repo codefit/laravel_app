@@ -1,3 +1,4 @@
+<!-- Header top - status: Done -->
 <nav class="header-top">
     <div class="container d-flex align-items-center">
         <ul class="d-flex">
