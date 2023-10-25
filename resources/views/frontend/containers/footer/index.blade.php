@@ -38,16 +38,20 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-lg-0">
-                    <h4 class="font-weight-bold mb-4">Odběr novinek</h4>
+                    <h4 class="font-weight-bold mb-4">Kde nás najdete</h4>
                     <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
-                    <div class="p-1 rounded border">
-                        <div class="input-group">
-                            <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
-                            <div class="input-group-append">
-                                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
-                            </div>
-                        </div>
-                    </div>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -40,19 +40,21 @@
     <section class="products ">
         <div class="container">
             <div class="d-flex align-items-center position-relative">
-                <h2 class="d-flex align-items-center mr-auto">
-                    <strong class="bg-red">
-                        <i class="bi bi-bookmark-fill"></i>
-                    </strong>
-                    <span class="ml-3">Akční nabídka</span>
-                </h2>
-                <div class="arrows ml-auto">
-                    <a class="products-prev-1">
-                        <i class="bi bi-chevron-left"></i>
-                    </a>
-                    <a class="products-next-1">
-                        <i class="bi bi-chevron-right"></i>
-                    </a>
+                <div class="header d-flex align-items-center">
+                    <h2 class="d-flex align-items-center mr-auto">
+                        <strong class="bg-red">
+                            <i class="bi bi-bookmark-fill"></i>
+                        </strong>
+                        <span class="ml-3">Akční nabídka</span>
+                    </h2>
+                    <div class="arrows ml-auto">
+                        <a class="products-prev-1">
+                            <i class="bi bi-chevron-left"></i>
+                        </a>
+                        <a class="products-next-1">
+                            <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="products-list glider-products glider-products-1">
@@ -66,19 +68,21 @@
     <section class="products mt-30">
         <div class="container">
             <div class="d-flex align-items-center position-relative">
-                <h2 class="d-flex align-items-center mr-auto">
-                    <strong class="bg-green">
-                        <i class="bi bi-heart-fill"></i>
-                    </strong>
-                    <span class="ml-3">Doporučené produkty</span>
-                </h2>
-                <div class="arrows ml-auto">
-                    <a class="products-prev-2">
-                        <i class="bi bi-chevron-left"></i>
-                    </a>
-                    <a class="products-next-2">
-                        <i class="bi bi-chevron-right"></i>
-                    </a>
+                <div class="header d-flex align-items-center">
+                    <h2 class="d-flex align-items-center mr-auto">
+                        <strong class="bg-green">
+                            <i class="bi bi-heart-fill"></i>
+                        </strong>
+                        <span class="ml-3">Doporučené produkty</span>
+                    </h2>
+                    <div class="arrows ml-auto">
+                        <a class="products-prev-2">
+                            <i class="bi bi-chevron-left"></i>
+                        </a>
+                        <a class="products-next-2">
+                            <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="products-list glider-products glider-products-2">

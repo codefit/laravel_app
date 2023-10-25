@@ -1,3 +1,17 @@
+section.carousel {
+  margin: 45px 0;
+}
+@media (max-width: 991px) {
+  section.carousel {
+    margin: 15px 0;
+  }
+}
+section.carousel .carousel-inner {
+  border-radius: 30px;
+}
+.carousel-inner {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 a,
 img {
   transition: all 0.3s ease-in-out;
@@ -27,8 +41,9 @@ input:focus {
   border-color: #34b878;
 }
 section.advantages {
+  position: relative;
   width: 100%;
-  margin: 30px 0;
+  margin: 45px 0 0px;
 }
 section.advantages .advantages-list {
   display: grid;
@@ -55,25 +70,21 @@ section.advantages .advantage .text {
 section.advantages .advantage .text strong {
   font-weight: 700;
 }
-section.carousel {
-  margin: 30px 0;
-}
-@media (max-width: 991px) {
-  section.carousel {
-    margin: 15px 0;
-  }
-}
-section.carousel .carousel-inner {
-  border-radius: 30px;
-}
 .products {
   position: relative;
+  margin: 30px auto 30px;
 }
-.products h2 {
+.products .header {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 30px 0 45px;
+}
+.products .header h2 {
+  margin: auto;
   font-weight: 700;
-  margin: 15px auto 30px;
 }
-.products h2 strong {
+.products .header h2 strong {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: -ms-flex;
@@ -88,25 +99,25 @@ section.carousel .carousel-inner {
   height: 40px;
   width: 40px;
 }
-.products h2 strong.bg-red {
+.products .header h2 strong.bg-red {
   background: #ed1c24;
 }
-.products h2 strong.bg-blue {
+.products .header h2 strong.bg-blue {
   background: darkblue;
 }
-.products h2 strong.bg-green {
+.products .header h2 strong.bg-green {
   background: var(--primary-color);
 }
-.products h2 i {
+.products .header h2 i {
   font-weight: 700;
   font-size: 16px;
   color: white;
 }
-.products h2 span {
+.products .header h2 span {
   text-transform: uppercase;
   display: inline-block;
 }
-.products .arrows {
+.products .header .arrows {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: -ms-flex;
@@ -115,11 +126,13 @@ section.carousel .carousel-inner {
   -ms-align-items: center;
   align-items: center;
   position: absolute;
-  top: 10px;
+  top: 0;
+  bottom: 0;
   right: 0;
+  margin: auto 0;
   gap: 15px;
 }
-.products .arrows a {
+.products .header .arrows a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: -ms-flex;
@@ -137,7 +150,7 @@ section.carousel .carousel-inner {
   color: #333;
   cursor: pointer;
 }
-.products .arrows a[aria-disabled=true] {
+.products .header .arrows a[aria-disabled=true] {
   opacity: 0.4;
   cursor: not-allowed;
 }
@@ -546,7 +559,7 @@ html {
 html,
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
 }
 main {

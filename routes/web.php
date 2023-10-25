@@ -2,7 +2,10 @@
 
 use App\Http\Controllers\backend\IndexController;
 use App\Http\Controllers\Frontend\HomeController;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
+use Intervention\Image\Facades\Image;
+use Intervention\Image\ImageManagerStatic;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +23,7 @@ Route::get('/', [ HomeController::class, 'index' ])->name('index');
 
 
 Route::get('/users/get', [ IndexController::class, 'getUsers' ])->name('users.get');
+
+
+
 
